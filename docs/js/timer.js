@@ -13,7 +13,7 @@ let mytime = setInterval(function() {
         minutes++;
         seconds = 0;
     }
-    console.log(minutes, seconds);
+
     let formatted_sec = seconds < 10 ? `0${seconds}` : `${seconds}`;
     let formatted_min = minutes < 10 ? `0${minutes}` : `${minutes}`;
 
